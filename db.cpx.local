@@ -16,4 +16,4 @@ services.cpx.local.          IN      A       10.0.1.10
 ; OpenShift internal cluster IPs - A records
 api.lab.cpx.local.    IN    A    10.0.1.14
 api-int.lab.cpx.local.    IN    A    10.0.1.14
-*.apps.lab.cpx.local.    IN    A    10.0.1.14
+*.apps.lab.cpx.local.    IN    A    10.0.1.15
