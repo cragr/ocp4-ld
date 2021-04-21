@@ -1,0 +1,9 @@
+zone "cpx.local" {
+    type master;
+    file "/etc/named/zones/db.cpx.local"; # zone file path
+};
+
+zone "1.0.10.in-addr.arpa" {
+    type master;
+    file "/etc/named/zones/db.10.0.1";  # 10.0.1.0/24 subnet
+};
