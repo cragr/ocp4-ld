@@ -1,5 +1,5 @@
 $TTL    604800
-@       IN      SOA     services.ocp.local. admin.ocp.local. (
+@       IN      SOA     services.cpx.local. admin.cpx.local. (
                   1     ; Serial
              604800     ; Refresh
               86400     ; Retry
@@ -11,9 +11,9 @@ $TTL    604800
     IN      NS      services
 
 ; name servers - A records
-services.ocp.local.          IN      A       10.0.1.10
+services.cpx.local.          IN      A       10.0.1.10
 
 ; OpenShift internal cluster IPs - A records
-api.lab.ocp.local.    IN    A    10.0.1.14
-api-int.lab.ocp.local.    IN    A    10.0.1.14
-*.apps.lab.ocp.local.    IN    A    10.0.1.14
+api.lab.cpx.local.    IN    A    10.0.1.14
+api-int.lab.cpx.local.    IN    A    10.0.1.14
+*.apps.lab.cpx.local.    IN    A    10.0.1.14
