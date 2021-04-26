@@ -5,5 +5,5 @@ zone "cpx.local" {
 
 zone "1.0.10.in-addr.arpa" {
     type master;
-    file "/etc/named/zones/db.10.0.1";  # 10.0.1.0/24 subnet
+    file "/etc/named/zones/db.192.168.60";  # 192.168.60.0/24 subnet
 };
